@@ -1,0 +1,154 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+}
+
+.container {
+    max-width: 1250px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+header {
+    background: url(../images/hdr-bg.jpg);
+    height: 650px;
+    margin-bottom: 140px;
+}
+
+.nav-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 40px;
+    margin-bottom: 70px;
+}
+
+.header__box {
+    display: flex;
+    align-items: center;
+    gap: 51px;
+}
+
+.header__nav-list {
+    display: flex;
+    align-items: center;
+    gap: 35px;
+}
+
+.header__logo-box {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.header-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 48px;
+}
+
+.cnt__one-box {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 15px;
+}
+
+.hdr__cnt-two {
+    text-align: center;
+}
+
+.cnt__two-title {
+    color: #122947;
+    font-size: 50px;
+    font-weight: 500;
+}
+.cnt__two-text {
+    color: #122947;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 145%;
+    margin-top: 30px;
+    margin-bottom: 40px;
+    max-width: 214px;
+}
+.btn-one {
+    color: #122947;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 140%; 
+    border-radius: 2px;
+    border: 1px solid #B3BAC1;
+    padding: 13px 27px 16px 27px;
+    margin-bottom: 120px;
+}
+
+
+.main__box-one {
+    margin-left: 86px;
+}
+
+.one__text-title {
+    color: #122947;
+    font-size: 32px;
+    font-weight: 500;
+    line-height: 130%;
+}
+
+.one__text-text {
+    max-width: 214px;
+    color: #122947;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 145%;
+    margin: 30px 0 40px 0; 
+}
+
+.main__boxz {
+    margin-top: 177px;
+    margin-bottom: 140px;
+    height: 550px;
+    background-image: url(../images/baner.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.box__two-title {
+    color: #122947;
+    font-size: 32px;
+    font-weight: 500;
+    line-height: 125%;
+    max-width: 277px;
+}
+
+.two__text-text {
+    color: #122947;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 145%;
+    margin-top: 30px;
+    margin-bottom: 40px;
+    max-width: 284px;
+}
+
+.fd-cnt {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
